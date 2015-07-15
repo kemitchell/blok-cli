@@ -7,6 +7,7 @@
     "blok-parse": "kemitchell/blok-parse.js",
     "blok-put": "kemitchell/blok-put.js",
     "blok-stringify": "kemitchell/blok-stringify.js",
+    "is-sha-256-hex-digest": "1.x",
     "leveldown": "1.3.x",
     "levelup": "1.2.x",
     "sha256": "0.2.x" },
