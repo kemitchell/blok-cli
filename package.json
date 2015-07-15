@@ -1,0 +1,16 @@
+{ "name": "blok",
+  "version": "0.0.0",
+  "license": "MIT",
+  "bin": "command.js",
+  "dependencies": {
+    "blok-get": "kemitchell/blok-get.js",
+    "blok-parse": "kemitchell/blok-parse.js",
+    "blok-put": "kemitchell/blok-put.js",
+    "blok-stringify": "kemitchell/blok-stringify.js",
+    "leveldown": "1.3.x",
+    "levelup": "1.2.x",
+    "sha256": "0.2.x" },
+  "devDependencies": {
+    "tape": "4.x" },
+  "scripts": {
+    "test": "tape test.js" } }
