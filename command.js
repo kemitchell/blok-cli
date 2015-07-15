@@ -8,3 +8,4 @@ var subcommand = process.argv[2]
 
 if (subcommand === 'put') { require('./put')() }
 else if (subcommand === 'get') { require('./get')() }
+else if (subcommand === 'list') { require('./list')() }
